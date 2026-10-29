@@ -1,0 +1,392 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "name": "Administrator BacaBisa",
+      "email": "admin@bacabisa.ac.id",
+      "password_hash": "$2a$10$V3ije2Nu.SODEpMJ7z81TODjb6IflvREEq8N0Y58hqO7rT1rZFAiK",
+      "role": "admin",
+      "created_at": "2026-10-23T12:00:24.454Z"
+    },
+    {
+      "id": 9,
+      "name": "wan",
+      "email": "ridwan.mvp01@gmail.com",
+      "password_hash": "$2a$10$PC22RDL42wev8n3qoiJWQei06EdK7nIT6jrkEeyTEInWzK5FtsHYS",
+      "role": "user",
+      "created_at": "2026-10-28T07:09:06.820Z"
+    },
+    {
+      "id": 10,
+      "name": "wan",
+      "email": "wan@gmail.com",
+      "password_hash": "$2a$10$8A8dKlseqmvXxxOuvzZ67.x/Zdhg5VGXJkbyggIWjnrPXxj35dii6",
+      "role": "user",
+      "created_at": "2026-10-29T06:37:33.384Z"
+    }
+  ],
+  "symptoms": [
+    {
+      "code": "G01",
+      "name": "Sulit mengenali huruf",
+      "weight": 3
+    },
+    {
+      "code": "G02",
+      "name": "Tertukar huruf (b–d, p–q)",
+      "weight": 2
+    },
+    {
+      "code": "G03",
+      "name": "Lambat membaca",
+      "weight": 2
+    },
+    {
+      "code": "G04",
+      "name": "Salah eja",
+      "weight": 2
+    },
+    {
+      "code": "G05",
+      "name": "Sulit memahami bacaan",
+      "weight": 3
+    },
+    {
+      "code": "G06",
+      "name": "Sulit menulis kata sederhana",
+      "weight": 3
+    },
+    {
+      "code": "G07",
+      "name": "Menghindari kegiatan membaca",
+      "weight": 1
+    }
+  ],
+  "cases": [
+    {
+      "code": "C01",
+      "symptoms": [
+        "G02"
+      ],
+      "level": "Ringan",
+      "is_placeholder": true,
+      "created_at": "2026-10-23T12:00:24.455Z"
+    },
+    {
+      "code": "C02",
+      "symptoms": [
+        "G04"
+      ],
+      "level": "Ringan",
+      "is_placeholder": true,
+      "created_at": "2026-10-23T12:00:24.455Z"
+    },
+    {
+      "code": "C03",
+      "symptoms": [
+        "G03"
+      ],
+      "level": "Ringan",
+      "is_placeholder": true,
+      "created_at": "2026-10-23T12:00:24.455Z"
+    },
+    {
+      "code": "C04",
+      "symptoms": [
+        "G02",
+        "G04"
+      ],
+      "level": "Ringan",
+      "is_placeholder": true,
+      "created_at": "2026-10-23T12:00:24.455Z"
+    },
+    {
+      "code": "C05",
+      "symptoms": [
+        "G02",
+        "G03"
+      ],
+      "level": "Ringan",
+      "is_placeholder": true,
+      "created_at": "2026-10-23T12:00:24.455Z"
+    },
+    {
+      "code": "C06",
+      "symptoms": [
+        "G04",
+        "G05"
+      ],
+      "level": "Ringan",
+      "is_placeholder": true,
+      "created_at": "2026-10-23T12:00:24.455Z"
+    },
+    {
+      "code": "C07",
+      "symptoms": [
+        "G06"
+      ],
+      "level": "Ringan",
+      "is_placeholder": true,
+      "created_at": "2026-10-23T12:00:24.455Z"
+    },
+    {
+      "code": "C08",
+      "symptoms": [
+        "G02",
+        "G03",
+        "G04"
+      ],
+      "level": "Sedang",
+      "is_placeholder": false,
+      "created_at": "2026-10-23T12:00:24.455Z"
+    },
+    {
+      "code": "C09",
+      "symptoms": [
+        "G03",
+        "G04",
+        "G05"
+      ],
+      "level": "Sedang",
+      "is_placeholder": false,
+      "created_at": "2026-10-23T12:00:24.455Z"
+    },
+    {
+      "code": "C10",
+      "symptoms": [
+        "G02",
+        "G04",
+        "G06"
+      ],
+      "level": "Sedang",
+      "is_placeholder": false,
+      "created_at": "2026-10-23T12:00:24.455Z"
+    },
+    {
+      "code": "C11",
+      "symptoms": [
+        "G02",
+        "G03",
+        "G04",
+        "G05"
+      ],
+      "level": "Sedang",
+      "is_placeholder": false,
+      "created_at": "2026-10-23T12:00:24.455Z"
+    },
+    {
+      "code": "C12",
+      "symptoms": [
+        "G03",
+        "G04",
+        "G06",
+        "G07"
+      ],
+      "level": "Sedang",
+      "is_placeholder": false,
+      "created_at": "2026-10-23T12:00:24.455Z"
+    },
+    {
+      "code": "C13",
+      "symptoms": [
+        "G01",
+        "G02",
+        "G04"
+      ],
+      "level": "Sedang",
+      "is_placeholder": false,
+      "created_at": "2026-10-23T12:00:24.455Z"
+    },
+    {
+      "code": "C14",
+      "symptoms": [
+        "G03",
+        "G05",
+        "G06",
+        "G07"
+      ],
+      "level": "Sedang",
+      "is_placeholder": false,
+      "created_at": "2026-10-23T12:00:24.455Z"
+    },
+    {
+      "code": "C15",
+      "symptoms": [
+        "G01",
+        "G02",
+        "G03",
+        "G04",
+        "G06"
+      ],
+      "level": "Berat",
+      "is_placeholder": false,
+      "created_at": "2026-10-23T12:00:24.455Z"
+    },
+    {
+      "code": "C16",
+      "symptoms": [
+        "G01",
+        "G02",
+        "G03",
+        "G04",
+        "G05",
+        "G06"
+      ],
+      "level": "Berat",
+      "is_placeholder": false,
+      "created_at": "2026-10-23T12:00:24.455Z"
+    },
+    {
+      "code": "C17",
+      "symptoms": [
+        "G01",
+        "G03",
+        "G04",
+        "G05",
+        "G06",
+        "G07"
+      ],
+      "level": "Berat",
+      "is_placeholder": false,
+      "created_at": "2026-10-23T12:00:24.455Z"
+    },
+    {
+      "code": "C18",
+      "symptoms": [
+        "G01",
+        "G02",
+        "G03",
+        "G05",
+        "G06",
+        "G07"
+      ],
+      "level": "Berat",
+      "is_placeholder": false,
+      "created_at": "2026-10-23T12:00:24.455Z"
+    },
+    {
+      "code": "C19",
+      "symptoms": [
+        "G01",
+        "G02",
+        "G03",
+        "G04",
+        "G05",
+        "G06",
+        "G07"
+      ],
+      "level": "Berat",
+      "is_placeholder": false,
+      "created_at": "2026-10-23T12:00:24.455Z"
+    },
+    {
+      "code": "C20",
+      "symptoms": [
+        "G01",
+        "G02",
+        "G04",
+        "G05",
+        "G06",
+        "G07"
+      ],
+      "level": "Berat",
+      "is_placeholder": false,
+      "created_at": "2026-10-23T12:00:24.455Z"
+    },
+    {
+      "code": "C21",
+      "symptoms": [
+        "G02",
+        "G03",
+        "G04"
+      ],
+      "level": "Berat",
+      "is_placeholder": false,
+      "created_at": "2026-10-28T06:51:12.880Z"
+    }
+  ],
+  "recommendations": [
+    {
+      "level": "Ringan",
+      "advice": "Lakukan latihan membaca dan menulis rutin setiap hari di rumah secara santai tanpa tekanan (15-20 menit). Berikan pujian atas setiap kemajuan kecil, gunakan media bergambar atau buku cerita menarik, dan komunikasikan perkembangan dengan guru kelas untuk pemantauan bersama di sekolah."
+    },
+    {
+      "level": "Sedang",
+      "advice": "Konsultasikan perkembangan anak dengan guru pendidikan khusus (GPK) atau psikolog anak di sekolah. Terapkan metode belajar multisensori (VAKT: Visual, Auditori, Kinestetik, dan Taktil), berikan waktu tambahan saat mengerjakan tugas membaca/menulis, dan hindari meminta anak membaca keras di depan kelas tanpa persiapan."
+    },
+    {
+      "level": "Berat",
+      "advice": "Segera lakukan asesmen komprehensif bersama psikolog anak, psikiater anak, atau terapis wicara/rehabilitasi medik. Susun Program Pembelajaran Individual (PPI) yang disesuaikan secara khusus, dampingi secara intensif oleh shadow teacher atau terapis ahli, serta berikan dukungan emosional berkelanjutan agar kepercayaan diri anak tetap terjaga."
+    }
+  ],
+  "diagnoses": [
+    {
+      "id": 7,
+      "user_id": 10,
+      "child_label": "wan",
+      "symptoms": [
+        "G01",
+        "G02",
+        "G03",
+        "G04",
+        "G06"
+      ],
+      "best_case": "C15",
+      "similarity": 100,
+      "level": "Berat",
+      "top_matches": [
+        {
+          "caseCode": "C15",
+          "level": "Berat",
+          "symptoms": [
+            "G01",
+            "G02",
+            "G03",
+            "G04",
+            "G06"
+          ],
+          "isPlaceholder": false,
+          "similarity": 1,
+          "similarityPercentage": 100,
+          "commonActiveCount": 5
+        },
+        {
+          "caseCode": "C16",
+          "level": "Berat",
+          "symptoms": [
+            "G01",
+            "G02",
+            "G03",
+            "G04",
+            "G05",
+            "G06"
+          ],
+          "isPlaceholder": false,
+          "similarity": 0.8125,
+          "similarityPercentage": 81.25,
+          "commonActiveCount": 5
+        },
+        {
+          "caseCode": "C19",
+          "level": "Berat",
+          "symptoms": [
+            "G01",
+            "G02",
+            "G03",
+            "G04",
+            "G05",
+            "G06",
+            "G07"
+          ],
+          "isPlaceholder": false,
+          "similarity": 0.75,
+          "similarityPercentage": 75,
+          "commonActiveCount": 5
+        }
+      ],
+      "revised_level": null,
+      "retained": false,
+      "created_at": "2026-10-29T06:47:27.461Z"
+    }
+  ]
+}

@@ -1,0 +1,73 @@
+{
+  "main": [
+    {
+      "name": "Beranda",
+      "url": "/"
+    },
+    {
+      "name": "Petunjuk",
+      "url": "/petunjuk"
+    },
+    {
+      "name": "Objek Penelitian",
+      "url": "/objek-penelitian"
+    },
+    {
+      "name": "Pengembang",
+      "url": "/pengembang"
+    }
+  ],
+  "footer": [
+    {
+      "name": "Navigasi Utama",
+      "menu": [
+        {
+          "text": "Beranda",
+          "url": "/"
+        },
+        {
+          "text": "Petunjuk Penggunaan",
+          "url": "/petunjuk"
+        },
+        {
+          "text": "Objek Penelitian",
+          "url": "/objek-penelitian"
+        },
+        {
+          "text": "Tim Pengembang",
+          "url": "/pengembang"
+        }
+      ]
+    },
+    {
+      "name": "Layanan Skrining",
+      "menu": [
+        {
+          "text": "Mulai Skrining",
+          "url": "/diagnosis"
+        },
+        {
+          "text": "Riwayat Skrining",
+          "url": "/riwayat"
+        },
+        {
+          "text": "Dashboard Pengguna",
+          "url": "/dashboard"
+        }
+      ]
+    },
+    {
+      "name": "Akses Akun",
+      "menu": [
+        {
+          "text": "Masuk Akun",
+          "url": "/login"
+        },
+        {
+          "text": "Daftar Akun",
+          "url": "/daftar"
+        }
+      ]
+    }
+  ]
+}

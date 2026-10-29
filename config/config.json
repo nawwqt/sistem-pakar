@@ -1,0 +1,32 @@
+{
+  "site": {
+    "title": "BacaBisa - Sistem Pakar Skrining Disleksia (CBR)",
+    "base_url": "/",
+    "favicon": "/images/favicon.png",
+    "logo": "/images/logo.png",
+    "logo_width": "180",
+    "logo_height": "48",
+    "logo_text": "BacaBisa"
+  },
+  "settings": {
+    "pagination": 4,
+    "summary_length": 200,
+    "blog_folder": "blogs"
+  },
+  "nav_button": {
+    "enable": true,
+    "label": "Mulai Skrining",
+    "link": "/diagnosis"
+  },
+  "params": {
+    "contact_form_action": "",
+    "tag_manager_id": "",
+    "footer_content": "Sistem pakar berbasis Case-Based Reasoning (CBR) untuk skrining awal tingkat keparahan disleksia pada anak usia sekolah dasar.",
+    "copyright": "© 2026 BacaBisa"
+  },
+  "metadata": {
+    "meta_author": "Tim BacaBisa - Universitas Janabadra",
+    "meta_image": "/images/banner.svg",
+    "meta_description": "Aplikasi Sistem Pakar Analisis Tingkat Keparahan Disleksia pada Anak Usia Sekolah Dasar menggunakan Metode Case-Based Reasoning (CBR)."
+  }
+}
