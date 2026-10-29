@@ -78,10 +78,11 @@ async function setup() {
 
   if (connectionString) {
     try {
+      const isNeonOrSsl = connectionString.includes("neon.tech") || connectionString.includes("sslmode=require") || process.env.NODE_ENV === "production";
       pool = new Pool({
         connectionString,
-        connectionTimeoutMillis: 2500,
-        ssl: process.env.NODE_ENV === "production" ? { rejectUnauthorized: false } : false,
+        connectionTimeoutMillis: 15000,
+        ssl: isNeonOrSsl ? { rejectUnauthorized: false } : false,
       });
       // Test connection
       await pool.query("SELECT 1");
